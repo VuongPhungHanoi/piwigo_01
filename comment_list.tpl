@@ -47,9 +47,9 @@
             <a name="edit_comment"></a>
             <form method="post" action="{$comment.U_EDIT}">
                 <div class="form-group">
-                    <label for="website_url">{'Website'|@translate} :</label>
-                    <input class="form-control" type="text" name="website_url" id="website_url" value="{$comment.WEBSITE_URL}">
-                </div>
+                  {* <label for="website_url">{'Website'|@translate} :</label>
+                    <input class="form-control" type="text" name="website_url" id="website_url" value="{$comment.WEBSITE_URL}"> *} 
+                </div> 
                 <div class="form-group">
                     <label for="contenteditid">{'Edit a comment'|@translate} :</label>
                     <textarea class="form-control" name="content" id="contenteditid" rows="5" cols="80">{$comment.CONTENT|@escape}</textarea>
